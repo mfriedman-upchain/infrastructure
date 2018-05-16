@@ -20,4 +20,11 @@ Put them in a suitable directory on the host machine such as
 In this example `$HOME/workspace/db-backups` is the directory
 where the mssql bak files live.
 
+## Run the restore scripts
+
+    ./filelistonly-plm.sh
+    ./filelistonly-dms.sh
+    ./exec-setup-user.sh
+    
+    
         
