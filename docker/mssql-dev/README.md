@@ -26,8 +26,8 @@ where the mssql bak files live.
 
 ## Run the restore scripts
 
-    ./filelistonly-plm.sh
-    ./filelistonly-dms.sh
+    ./restore-dms.sh
+    ./restore-plm.sh
     ./exec-setup-user.sh
     
     
