@@ -20,6 +20,10 @@ Put them in a suitable directory on the host machine such as
 In this example `$HOME/workspace/db-backups` is the directory
 where the mssql bak files live.
 
+## Get a shell in the running container
+
+    docker exec -it mssql bash
+
 ## Run the restore scripts
 
     ./filelistonly-plm.sh
